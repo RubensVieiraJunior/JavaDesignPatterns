@@ -16,6 +16,8 @@ public class InstrumentFactory {
 			} else if (type.equals(InstrumentType.STINGS_TWICE)) {
 				instrument = new Piano(true);
 			}
+			
+			instruments.put(type, instrument);
 		}
 		
 		return instrument;
