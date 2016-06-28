@@ -26,4 +26,8 @@ public class InstrumentFactory {
 	public static enum InstrumentType {
 		STRINGS, STINGS, STINGS_TWICE
 	}
+	
+	public static enum MusicalNote {
+		DO, RE, MI, FA, SOL, LA, SI
+	}
 }
